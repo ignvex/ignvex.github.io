@@ -1,6 +1,6 @@
 ---
 title: "yazi-优秀的支持多系统的文件管理器"
-description: 
+description: 得益于rust编写的优秀文件管理器
 date: 2026-07-04T20:48:39+08:00
 image: image.png
 math: 
