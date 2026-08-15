@@ -1,7 +1,7 @@
 # Change baseurl before deploy
 baseurl = "https://ignvex.github.io/"
 locale  = "zh-cn"
-title   = "Ignvex's Blog"
+title   = "式鉴的博客"
 
 # Theme i18n support
 # See all available values at https://github.com/CaiJimmy/hugo-theme-stack/tree/master/i18n
@@ -15,4 +15,4 @@ hasCJKLanguage = true
 disqusShortname = "hugo-theme-stack"
 
 [pagination]
-    pagerSize = 6
+    pagerSize = 8
