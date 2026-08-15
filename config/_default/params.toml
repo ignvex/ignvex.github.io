@@ -11,7 +11,7 @@ SortBy              = "default"
 
 [footer]
     since      = 2020
-    customText = ""
+    customText = "Powered By github page"
 
 [dateFormat]
     published   = ":date_full"
