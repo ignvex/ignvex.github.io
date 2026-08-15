@@ -1,6 +1,6 @@
 ---
 title: "便捷安装证书的magisk模块"
-description: 
+description: 用 Move Certificate 模块把抓包证书安装为系统证书，Magisk / KernelSU 通用，解决 reqable 等工具在 Android 上的证书信任问题。
 date: 2026-07-04T22:28:43+08:00
 image: 
 math: 

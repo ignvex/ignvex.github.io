@@ -1,6 +1,6 @@
 ---
 title: "LG V60手机玩机日志"
-description: 
+description: LG V60 五年后的刷机记录：Rising OS、Magisk + Zygisk Next、Uperf 性能调优与救砖经验。
 date: 2025-05-01T22:33:28+08:00
 image: 
 math: 

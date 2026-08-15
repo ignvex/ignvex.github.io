@@ -1,6 +1,6 @@
 ---
 title: "java发行版选择指南"
-description: 哪个jvav发行版更适合你的需求?
+description: JVM / JRE / JDK 概念梳理与 Java 发行版选择指南：LTS 支持周期、Minecraft 各版本对 Java 的要求，帮你选对发行版。
 date: 2026-07-05T23:02:10+08:00
 image: background.png
 math: 

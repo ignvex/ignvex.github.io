@@ -1,6 +1,6 @@
 ---
-title: "llm迭代与个人发展关系的预估"
-description: llm与个人的博弈论和契约论
+title: "LLM 迭代与个人发展关系的预估"
+description: 从博弈论与契约论的视角分析 LLM 的随机性与真实效率，探讨如何在与 LLM 的协作中保持高效。
 date: 2026-07-11T10:41:35+08:00
 image:
 math: true

@@ -1,6 +1,6 @@
 ---
-title: "balenaEtcher-优秀的系统刷写工具"
-description: 比rufus更好用，更强大
+title: "balenaEtcher：优秀的系统刷写工具"
+description: 开源跨平台的 USB 镜像烧录工具，支持 Windows / Linux / macOS，界面简洁易用，是刷写系统镜像的可靠选择。
 date: 2026-07-08T17:57:38+08:00
 image: background.png
 math: 

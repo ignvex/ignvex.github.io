@@ -1,6 +1,6 @@
 ---
 title: "在linux上使用onedrive"
-description: 
+description: OneDrive 官方不支持 Linux，用开源项目 abraunegg/onedrive 同步微软 365 文件，附安装、登录与配置方法。
 date: 2026-07-04T20:39:34+08:00
 image: 
 math: 

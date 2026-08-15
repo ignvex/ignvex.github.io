@@ -1,6 +1,6 @@
 ---
 title: "ssh欢迎信息修改"
-description: 修改服务器SSH登录欢迎信息(MOTD)方法
+description: 两种自定义 SSH 登录欢迎信息的方法：直接修改 /etc/motd 静态文件，或用 Ubuntu/Debian 的 update-motd 动态脚本。
 date: 2026-07-04T20:47:43+08:00
 image: 
 math: 

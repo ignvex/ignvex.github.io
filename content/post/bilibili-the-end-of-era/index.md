@@ -1,7 +1,7 @@
 ---
-title: "大人,时代变了(Bilibili Version)"
+title: "大人，时代变了（Bilibili 版）"
 slug: bilibili-the-end-of-era
-description: bilibili开源逆向接口、三方软件在github真正消失的一年
+description: 2026 年，Bilibili 逆向接口仓库与 BiliRoaming 等第三方项目接连收到律师函，回顾这场三方生态的终结与背后的商业化逻辑。
 date: 2026-07-06T18:20:22+08:00
 image: 
 math: 

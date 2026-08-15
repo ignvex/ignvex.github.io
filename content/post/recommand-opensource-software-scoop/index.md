@@ -1,6 +1,6 @@
 ---
-title: "Scoop-Windows上的便捷的开源应用管理器"
-description: 功能全面、高可配置性的强大包管理器
+title: "Scoop：Windows 上的开源包管理器"
+description: 无需管理员权限即可安装、更新、卸载软件的 Windows 包管理器，附镜像源与 bucket 扩展配置。
 date: 2026-08-14T21:25:42+08:00
 image: 
 math: 

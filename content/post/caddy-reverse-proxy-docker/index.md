@@ -1,6 +1,6 @@
 ---
 title: "自用docker镜像源搭建"
-description: 没错，是自建
+description: 公共 Docker 加速器陆续关闭后，用一台海外服务器 + Caddy 反向代理自建镜像源，附完整安装配置。
 date: 2026-08-14T23:09:30+08:00
 image: 
 math: 

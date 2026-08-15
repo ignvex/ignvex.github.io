@@ -1,6 +1,6 @@
 ---
-title: "Deepseek Harness取巧-Windows专属"
-description: 在懒和维护的便携性上寻找的一个平衡点
+title: "DeepSeek Harness 免 npx 安装（Windows）"
+description: 在 Windows 上通过 Scoop 安装 Node.js、为 npx 配置镜像源，然后一条命令启动 DeepSeek Harness 的取巧方案。
 date: 2026-08-14T21:18:04+08:00
 image: 
 math: 

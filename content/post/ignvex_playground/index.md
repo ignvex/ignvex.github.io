@@ -1,6 +1,6 @@
 ---
-title: "新域名购置,ignvex.top"
-description: 一个测试性的域名
+title: "新域名购置：ignvex.top"
+description: 购入 ignvex.top 作为试验场地，计划用它反代站点、部署实验性项目，记录后续折腾进度。
 date: 2026-08-11T20:40:23+08:00
 image: 
 math: 

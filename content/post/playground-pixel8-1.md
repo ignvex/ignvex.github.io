@@ -1,13 +1,13 @@
 ---
 title: "Pixel8玩机日志"
-description: 
+description: Pixel 8 完整玩机流程：解锁 BL、Magisk 修补 init_boot、Root 后的模块折腾记录。
 date: 2025-04-04T10:59:44+08:00
 image: 
 math: 
 license: 
 comments: true
 draft: false
-categoris:
+categories:
     - 玩机日志
 tags:
     - pixel 8

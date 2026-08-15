@@ -1,6 +1,6 @@
 ---
-title: "基础工具的代理配置"
-description: 基础却重要
+title: "Linux 基础工具代理配置（wget / curl / git）"
+description: 在 Linux 下为 wget、curl、git 配置代理，解决国内网络环境下命令行工具下载慢、连接失败的问题。
 date: 2025-07-04T20:43:30+08:00
 image: 
 math: 
