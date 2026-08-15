@@ -24,7 +24,7 @@ build:
 
 ### 参考但是没有用的资料
 [llm的大致历史](https://www.cnblogs.com/jiujuan/p/18752957)
-[Anthrpoic一天迁移stripe 5000万代码](https://mp.weixin.qq.com/s/8D0VcX1pSyQ0S9sfDPXCwg)
+[Anthropic一天迁移stripe 5000万代码](https://mp.weixin.qq.com/s/8D0VcX1pSyQ0S9sfDPXCwg)
 [阿里云因安全问题禁用anthropic](https://mp.weixin.qq.com/s/RlrC35DkLi0SKcUP_PcInw)
 
 ## 正文

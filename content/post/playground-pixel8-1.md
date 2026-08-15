@@ -30,7 +30,7 @@ build:
 在`github`的release中下载最新的`app-relase.apk`，修补准备好的init_boot.img
 
 注: init_boot.img 可从官方线刷脚本获得
-## 2. 进入fastboot & 解oem锁(bl锁)
+## 3. 进入fastboot & 解oem锁(bl锁)
 ```shell 
 adb reboot fastboot 
 ```
@@ -38,12 +38,12 @@ adb reboot fastboot
 ```shell 
 fastboot oem unlock
 ```
-警告: 打开oem锁后会清除所有用户数据,解锁需要先退有关账号
+警告: 打开oem锁后会清除所有用户数据,解锁需要先退出有关账号
 注: 如需回锁 `fastboot oem lock`
-## 3. 刷入修补镜像 
+## 4. 刷入修补镜像
 ```shell 
 fastboot flash init_boot ***.img
 ```
-## 4. 配置软件
+## 5. 配置软件
 
 不在着重讲述，各取所需

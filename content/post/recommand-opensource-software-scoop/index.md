@@ -39,7 +39,7 @@ scoop update
 
 scoop有一种叫做bucket的概念，你可以通过增加bucket来扩展你可以在scoop下载、安装、管理的软件。也就是说他们需要配置额外的镜像源。
 
-慢慢安装，其实bucket有不少需要装的。主要有main,extra,doradb,echo,scoopcn,siku,versions好多
+慢慢安装，其实bucket有不少需要装的。主要有main、extras、dorado、echo、scoopcn、siku、versions好多
 ```shell
 scoop bucket add main
 ```
@@ -55,7 +55,8 @@ scoop reset <name>@版本号         # 回退到 已安装 指定版本
 scoop list                        # 列出已安装的软件
 scoop list <name>                 # 列出已安装某软件 已装版本
 scoop update <name>               # 更新某软件
-scoop update *                    # 只更新 bucket，不升级软件
+scoop update                   # 只更新 bucket，不升级软件
+scoop update *                 # 升级所有已安装软件
 scoop uninstall <name>            # 卸载
 scoop which <exe>                 # 查看某可执行文件实际路径
 scoop prefix <name>				  # 快速查询 通过 Scoop 安装 软件所在根目录路径
@@ -71,4 +72,4 @@ scoop prefix <name>				  # 快速查询 通过 Scoop 安装 软件所在根目�
 
 [知乎上的scoop设置国内镜像加速](https://zhuanlan.zhihu.com/p/27467105881)
 
-[官方地址](scoop.sh)
+[官方地址](https://scoop.sh)

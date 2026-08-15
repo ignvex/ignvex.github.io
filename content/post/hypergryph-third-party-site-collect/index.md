@@ -28,7 +28,7 @@ tags:
 
 一站式收录明日方舟 IP 宇宙：从泰拉大陆的《明日方舟》，到塔卫二的《明日方舟：终末地》， 以及围绕它们展开的音乐、动画、漫画与周边文化。
 
-### PTRS
+### PRTS
 
 `Include: 明日方舟` [跳转链接](https://prts.wiki/)
 
@@ -82,15 +82,15 @@ tags:
 
 `Include: 明日方舟` [跳转链接](https://ark-nights.com/)
 
-老牌著名的干员培养规划与地图模拟工具网站。主站是干员培养的材料及计算器，子站是地图查看器（见下一条 PTRS.MAP）。
+老牌著名的干员培养规划与地图模拟工具网站。主站是干员培养的材料及计算器，子站是地图查看器（见下一条 PRTS.MAP）。
 
-### PTRS.MAP
+### PRTS.MAP
 
 `Include: 明日方舟` [跳转链接](https://map.ark-nights.com/)
 
 PRTS 衍生出的专门用于查阅地图与怪物路线的工具
 
-### PTRS.chat
+### PRTS.chat
 
 `Include: 明日方舟` [跳转链接](https://prts.chat/)
 

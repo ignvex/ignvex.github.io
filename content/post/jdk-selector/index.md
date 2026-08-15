@@ -67,7 +67,7 @@ sdk current                    # 查看所有被管理的 SDK 当前版本
 
 卸载不需要的版本
 sdk uninstall gradle 7.2
----
+```
 
 ## 支持的部分 SDK 列表
 Java (Adoptium, Corretto, GraalVM, Zulu…) · Kotlin · Groovy · Scala  

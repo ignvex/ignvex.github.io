@@ -28,7 +28,7 @@ build:
 
 1. 下载模块
 2. 刷入模块
-3. 进将证书放入 `/data/local/tmp/cert/`
+3. 将证书放入 `/data/local/tmp/cert/`
 4. 重启，使模块生效
 
 注: 如果 reqable 用户选择保存证书，证书会自动保存到`/sdcard/download/reqable/`
