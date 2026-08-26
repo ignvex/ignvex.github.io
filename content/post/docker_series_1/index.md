@@ -1,6 +1,6 @@
 ---
-title: "Docker 主要使用方法"
-description: 
+title: "Docker 使用指南：镜像、容器与 Dockerfile"
+description: Docker 基础入门：镜像管理、容器操作与 Dockerfile 写法，覆盖常用命令与使用注意事项，帮你快速上手容器化。
 date: 2026-08-14T21:06:32+08:00
 image: 
 math: 
