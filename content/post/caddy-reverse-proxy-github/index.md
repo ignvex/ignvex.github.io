@@ -166,3 +166,9 @@ wget https://gh.example.com/user/repo/releases/download/v1.0/app.tar.gz
 ### 稍作补充
 
 用户目录下的 `.gitconfig` 将 `insteadOf` 中的 `github.com` 换为 `git@github.com:` 防止 VSCode 将你识别为企业版 github 用户。
+
+示例:
+```shell
+[url "https://example.com/"]
+	insteadOf = git@github.com:
+```
