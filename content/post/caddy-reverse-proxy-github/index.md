@@ -24,7 +24,7 @@ caddy 的安装与守护进程写法在上一篇已经详细介绍过，这里�
 ## 快速搭建
 
 ### 配置caddyfile
-
+根据笔者踩坑经验。netcraft等公司有专门扫描仿冒站点的业务，会批量抓取网页，反代域名的登录等页面会被视为欺诈。申请回复的流程极为繁琐，所以这里加了些取巧的配置方法供读者放心的复制粘贴。
 ```shell
 # 换成你自己的域名
 DOMAIN="example.com"
@@ -41,42 +41,98 @@ gh.\${DOMAIN} {
         header_down Location "https://github.com" "https://gh.\${DOMAIN}"
     }
 }
+gh.\${DOMAIN} {
+	handle /robots.txt {
+		respond "User-agent: *\nDisallow: /" 200
+	}
+	# 白名单：只放行 git 协议与下载路径，网页一律 307 回原站
+	# 用 path_regexp，语义明确，不依赖 glob 通配符是否跨斜杠
+	@allow {
+		# 合并为单条正则（每个命名 matcher 中 path_regexp 只能出现一次）
+		# 覆盖：.git 协议形态（含 LFS/objects）、不带 .git 的首发请求、下载类路径
+		path_regexp ^/[^/]+/[^/]+(\\.git(/.*)?$|/(info/refs|git-upload-pack|git-receive-pack|HEAD)$|/archive/.*$|/releases/download/.*$|/raw/.*$|/(commit|commits|pull|pulls)/[^/]+\\.patch$)
+	}
+	@rest {
+		not {
+			path_regexp ^/[^/]+/[^/]+(\\.git(/.*)?$|/(info/refs|git-upload-pack|git-receive-pack|HEAD)$|/archive/.*$|/releases/download/.*$|/raw/.*$|/(commit|commits|pull|pulls)/[^/]+\\.patch$)
+		}
+	}
+	redir @rest https://github.com{uri} 307
+	reverse_proxy https://github.com {
+		header_up Host {upstream_hostport}
+		header_up X-Forwarded-Host {host}
+		header_up origin https://github.com
+		# 下载链 302 闭环：全部改写到自己镜像域名
+		header_down Location "https://raw.githubusercontent.com" "https://raw.gh.\${DOMAIN}"
+		header_down Location "https://codeload.github.com" "https://codeload.gh.\${DOMAIN}"
+		header_down Location "https://objects.githubusercontent.com" "https://objects.gh.\${DOMAIN}"
+	}
+}
 
 raw.gh.\${DOMAIN} {
-    reverse_proxy https://raw.githubusercontent.com {
-        header_up Host raw.githubusercontent.com
-    }
+	handle /robots.txt {
+		respond "User-agent: *\nDisallow: /" 200
+	}
+	reverse_proxy https://raw.githubusercontent.com {
+		header_up Host raw.githubusercontent.com
+	}
 }
 
 objects.gh.\${DOMAIN} {
-    reverse_proxy https://objects.githubusercontent.com {
-        header_up Host objects.githubusercontent.com
-        header_down Location "https://objects.githubusercontent.com" "https://objects.gh.\${DOMAIN}"
-    }
+	handle /robots.txt {
+		respond "User-agent: *\nDisallow: /" 200
+	}
+	reverse_proxy https://objects.githubusercontent.com {
+		header_up Host objects.githubusercontent.com
+		header_down Location "https://objects.githubusercontent.com" "https://objects.gh.\${DOMAIN}"
+	}
 }
 
 codeload.gh.\${DOMAIN} {
-    reverse_proxy https://codeload.github.com {
-        header_up Host codeload.github.com
-    }
+	handle /robots.txt {
+		respond "User-agent: *\nDisallow: /" 200
+	}
+	reverse_proxy https://codeload.github.com {
+		header_up Host codeload.github.com
+	}
 }
 
 api.gh.\${DOMAIN} {
-    reverse_proxy https://api.github.com {
-        header_up Host api.github.com
-    }
+	handle /robots.txt {
+		respond "User-agent: *\nDisallow: /" 200
+	}
+	reverse_proxy https://api.github.com {
+		header_up Host api.github.com
+	}
 }
 
 gist.gh.\${DOMAIN} {
-    reverse_proxy https://gist.github.com {
-        header_up Host gist.github.com
-    }
+	handle /robots.txt {
+		respond "User-agent: *\nDisallow: /" 200
+	}
+	# gist 的 clone 有两种深度：/id.git 与 /user/id.git，其余网页 307 回原站
+	@allow {
+		# 单条正则：/id.git 与 /user/id.git 两种深度 + 不带 .git 的协议首发请求
+		path_regexp ^/(([^/]+/)?[^/]+\\.git(/.*)?$|([^/]+/)?[^/]+/(info/refs|git-upload-pack|git-receive-pack|HEAD)$)
+	}
+	@rest {
+		not {
+			path_regexp ^/(([^/]+/)?[^/]+\\.git(/.*)?$|([^/]+/)?[^/]+/(info/refs|git-upload-pack|git-receive-pack|HEAD)$)
+		}
+	}
+	redir @rest https://gist.github.com{uri} 307
+	reverse_proxy https://gist.github.com {
+		header_up Host gist.github.com
+	}
 }
 
 avatars.gh.\${DOMAIN} {
-    reverse_proxy https://avatars.githubusercontent.com {
-        header_up Host avatars.githubusercontent.com
-    }
+	handle /robots.txt {
+		respond "User-agent: *\nDisallow: /" 200
+	}
+	reverse_proxy https://avatars.githubusercontent.com {
+		header_up Host avatars.githubusercontent.com
+	}
 }
 EOF
 ```
@@ -93,6 +149,7 @@ EOF
 
 ### 配置dns
 
+嫌麻烦就加一条泛解析 `*.gh.example.com`，前提是dns服务商支持泛解析。目前已知cloudflare支持
 7 条 A 记录指向服务器公网 IP：
 
 ```
@@ -105,7 +162,6 @@ gist.gh.example.com
 avatars.gh.example.com
 ```
 
-嫌麻烦就加一条泛解析 `*.gh.example.com`。
 
 ### 验证部署
 
@@ -171,4 +227,11 @@ wget https://gh.example.com/user/repo/releases/download/v1.0/app.tar.gz
 ```shell
 [url "https://example.com/"]
 	insteadOf = git@github.com:
+```
+### 补充之外的进阶玩法
+在`.gitconfig`中添加。
+并在[github](https://github.com/settings/personal-access-tokens)配置token并赋予仓库相关的权限
+```
+[credential "https://gh.example.com"]
+	provider = generic
 ```
