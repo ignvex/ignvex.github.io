@@ -1,5 +1,5 @@
 ---
-title: "Caddy反代github"
+title: "Caddy 反代 GitHub"
 slug: caddy-reverse-proxy-github
 aliases:
     - "/p/caddy反代github/"

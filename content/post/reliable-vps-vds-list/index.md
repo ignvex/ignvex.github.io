@@ -1,5 +1,5 @@
 ---
-title: "优秀vps&vds服务商收录"
+title: "优秀 VPS / VDS 服务商收录"
 slug: reliable-vps-vds-list
 aliases:
     - "/p/优秀vpsvds服务商收录/"

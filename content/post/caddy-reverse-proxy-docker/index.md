@@ -1,5 +1,5 @@
 ---
-title: "自用docker镜像源搭建"
+title: "自建 Docker 镜像源（Caddy 反代）"
 slug: caddy-reverse-proxy-docker
 aliases:
     - "/p/自用docker镜像源搭建/"

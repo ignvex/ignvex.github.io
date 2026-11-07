@@ -1,5 +1,5 @@
 ---
-title: "ssh欢迎信息修改"
+title: "修改 SSH 登录欢迎信息"
 slug: ssh-motd
 aliases:
     - "/p/ssh欢迎信息修改/"

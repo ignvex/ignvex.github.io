@@ -1,5 +1,5 @@
 ---
-title: "LG V60手机玩机日志"
+title: "LG V60 玩机日志"
 slug: lg-v60-log
 aliases:
     - "/p/lg-v60手机玩机日志/"

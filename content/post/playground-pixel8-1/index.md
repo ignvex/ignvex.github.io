@@ -1,5 +1,5 @@
 ---
-title: "Pixel8玩机日志"
+title: "Pixel 8 玩机日志"
 slug: pixel-8-log
 aliases:
     - "/p/pixel8玩机日志/"

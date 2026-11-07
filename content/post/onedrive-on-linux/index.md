@@ -1,5 +1,5 @@
 ---
-title: "在linux上使用onedrive"
+title: "在 Linux 上使用 OneDrive"
 slug: onedrive-on-linux
 aliases:
     - "/p/在linux上使用onedrive/"

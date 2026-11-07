@@ -1,5 +1,5 @@
 ---
-title: "java发行版选择指南"
+title: "Java 发行版选择指南"
 slug: java-distribution-guide
 aliases:
     - "/p/java发行版选择指南/"

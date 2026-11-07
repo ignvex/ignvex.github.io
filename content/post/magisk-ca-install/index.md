@@ -1,5 +1,5 @@
 ---
-title: "便捷安装证书的magisk模块"
+title: "便捷安装系统证书的 Magisk 模块"
 slug: magisk-move-certificate
 aliases:
     - "/p/便捷安装证书的magisk模块/"

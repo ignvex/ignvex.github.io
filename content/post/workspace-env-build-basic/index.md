@@ -1,5 +1,5 @@
 ---
-title: "工作环境搭建 序"
+title: "工作环境搭建：序"
 slug: workspace-env-build-basic
 aliases:
     - "/p/工作环境搭建-序/"

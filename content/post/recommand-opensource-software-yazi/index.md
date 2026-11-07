@@ -1,5 +1,5 @@
 ---
-title: "yazi-优秀的支持多系统的文件管理器"
+title: "Yazi：支持多系统的终端文件管理器"
 slug: yazi
 aliases:
     - "/p/yazi-优秀的支持多系统的文件管理器/"

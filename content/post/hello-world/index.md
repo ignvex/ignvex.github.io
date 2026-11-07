@@ -1,5 +1,5 @@
 ---
-title: Hello World
+title: "Hello World"
 slug: hello-world
 description: 博客建站的第一篇文章。
 date: 2026-06-10 00:00:00+0000

@@ -1,5 +1,5 @@
 ---
-title: "2026好书推荐"
+title: "2026 好书推荐"
 slug: book-recommendations-2026
 aliases:
     - "/p/2026好书推荐/"

@@ -1,5 +1,5 @@
 ---
-title: "Windows 11优化技巧集"
+title: "Windows 11 优化技巧集"
 slug: windows-11-tips
 aliases:
     - "/p/windows-11优化技巧集/"
