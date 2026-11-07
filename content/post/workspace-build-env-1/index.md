@@ -7,14 +7,14 @@ image:
 math:
 license:
 comments: true
-draft: true
+draft: false
 categories:
-    - 优化之路
+  - 优化之路
 tags:
-    - windows
-    - wsl
-    - linux
-    - proxy
+  - windows
+  - wsl
+  - linux
+  - proxy
 ---
 
 ## 前言
