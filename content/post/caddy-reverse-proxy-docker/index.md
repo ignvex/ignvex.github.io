@@ -1,5 +1,8 @@
 ---
 title: "自用docker镜像源搭建"
+slug: caddy-reverse-proxy-docker
+aliases:
+    - "/p/自用docker镜像源搭建/"
 description: 公共 Docker 加速器陆续关闭后，用一台海外服务器 + Caddy 反向代理自建镜像源，附完整安装配置。
 date: 2026-08-14T23:09:30+08:00
 image: 
@@ -7,14 +10,15 @@ math:
 license: 
 comments: true
 draft: false
+build:
+    list: always
 categories:
     - 实用技巧
 tags:
     - caddy
     - docker
     - linux
-build:
-    list: always
+    - proxy
 ---
 
 公共 docker 加速器关了一大批，自己用一台海外服务器反代镜像仓库，一劳永逸。

@@ -1,5 +1,8 @@
 ---
 title: "java发行版选择指南"
+slug: java-distribution-guide
+aliases:
+    - "/p/java发行版选择指南/"
 description: JVM / JRE / JDK 概念梳理与 Java 发行版选择指南：LTS 支持周期、Minecraft 各版本对 Java 的要求，帮你选对发行版。
 date: 2026-07-05T23:02:10+08:00
 image: background.png
@@ -7,14 +10,14 @@ math:
 license: 
 comments: true
 draft: false
+build:
+    list: always    # Change to "never" to hide the page from the list
 categories:
     - 实用技巧
     - 游戏
 tags:
     - java
     - minecraft
-build:
-    list: always    # Change to "never" to hide the page from the list
 ---
 
 java是非常优秀的编程语言，是21世纪极为优秀的语言。但java在2006年将本体与hotspot开源并形成openjdk后，java发行版的选择也不只官方独有，可选择的内容多了，但如何选择适合自己需求的发行版，便成为了一个重要的议题，即本文主题。

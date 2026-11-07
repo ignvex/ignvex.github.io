@@ -1,5 +1,8 @@
 ---
 title: "Git 使用规范：分支、提交信息与版本管理"
+slug: git-conventions
+aliases:
+    - "/p/git-使用规范分支提交信息与版本管理/"
 description: 从分支命名、Conventional Commits 提交信息到语义化版本与协作流程，整理一套可落地的 Git 使用规范，让提交历史清晰可追溯。
 date: 2026-08-26T16:09:10+08:00
 image: 

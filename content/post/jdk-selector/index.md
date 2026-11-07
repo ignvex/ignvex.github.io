@@ -1,5 +1,8 @@
 ---
 title: "SDKMAN!：Java 版本管理器"
+slug: sdkman
+aliases:
+    - "/p/sdkmanjava-版本管理器/"
 description: SDKMAN! 安装与使用：一条命令切换 JDK 多版本，覆盖 Windows（Scoop）、Debian、Arch 等平台。
 date: 2026-07-05T23:44:18+08:00
 image: background.svg
@@ -7,12 +10,14 @@ math:
 license: 
 comments: true
 draft: false
+build:
+    list: always    # Change to "never" to hide the page from the list
 categories:
     - 实用技巧
 tags:
     - java
-build:
-    list: always    # Change to "never" to hide the page from the list
+    - linux
+    - windows
 ---
 
 

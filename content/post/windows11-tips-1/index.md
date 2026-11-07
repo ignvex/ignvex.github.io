@@ -1,6 +1,9 @@
 ---
 title: "Windows 11优化技巧集"
-description: 对windows11稍做优化
+slug: windows-11-tips
+aliases:
+    - "/p/windows-11优化技巧集/"
+description: 新笔记本换到 Windows 11 后的优化记录：任务栏精简、动画调整，以及 PowerShell 7、PowerToys、7zip-zstd 等软件推荐。
 date: 2026-09-30T20:09:02+08:00
 image:
 math:
@@ -9,11 +12,11 @@ comments: true
 draft: false
 build:
   list: always # Change to "never" to hide the page from the list
-tags:
-  - Windows
 categories:
-  - 实用技巧
-  - 优化之路
+    - 优化之路
+tags:
+    - windows
+    - wsl
 ---
 
 ## 序言之前

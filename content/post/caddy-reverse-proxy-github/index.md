@@ -1,5 +1,8 @@
 ---
 title: "Caddy反代github"
+slug: caddy-reverse-proxy-github
+aliases:
+    - "/p/caddy反代github/"
 description: github 直连不稳定，用一台海外服务器 + Caddy 反向代理自建加速站，网页、clone、raw、release 一把梭，附完整 Caddyfile 与 git 配置。
 date: 2026-08-15T13:07:30+08:00
 image: 
@@ -15,6 +18,7 @@ tags:
     - caddy
     - git
     - linux
+    - proxy
 ---
 
 github 直连不稳定，clone 大仓库动不动断流，release 下载经常超时。用一台海外服务器反代 github，网页、clone、raw、release 一把梭，一劳永逸。

@@ -1,5 +1,8 @@
 ---
 title: "Linux 基础工具代理配置（wget / curl / git）"
+slug: linux-tools-proxy-config
+aliases:
+    - "/p/linux-基础工具代理配置wget-curl-git/"
 description: 在 Linux 下为 wget、curl、git 配置代理，解决国内网络环境下命令行工具下载慢、连接失败的问题。
 date: 2025-07-04T20:43:30+08:00
 image: 
@@ -7,15 +10,14 @@ math:
 license: 
 comments: true
 draft: false
-categories:
-    - 实用技巧
-tags: 
-    - linux
-    - wget
-    - curl 
-    - git
 build:
     list: always    # Change to "never" to hide the page from the list
+categories:
+    - 实用技巧
+tags:
+    - linux
+    - git
+    - proxy
 ---
 
 

@@ -1,5 +1,8 @@
 ---
 title: "LLM 迭代与个人发展关系的预估"
+slug: llm-and-personal-development
+aliases:
+    - "/p/llm-迭代与个人发展关系的预估/"
 description: 从博弈论与契约论的视角分析 LLM 的随机性与真实效率，探讨如何在与 LLM 的协作中保持高效。
 date: 2026-07-11T10:41:35+08:00
 image:
@@ -7,12 +10,12 @@ math: true
 license:
 comments: true
 draft: false
-categories:
-  - 闲扯
-tags:
-  - llm
 build:
   list: always # Change to "never" to hide the page from the list
+categories:
+    - 杂谈
+tags:
+    - llm
 ---
 
 ## 引言

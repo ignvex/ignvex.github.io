@@ -1,6 +1,9 @@
 ---
 title: "优秀vps&vds服务商收录"
-description: 收录历年的优质vps/vds供应商
+slug: reliable-vps-vds-list
+aliases:
+    - "/p/优秀vpsvds服务商收录/"
+description: 历年积累的 VPS / VDS 服务商收录，分大陆与非大陆两类，按性价比排序，筛选体量大、运营久、服务稳定的商家。
 date: 2026-08-30T11:49:51+08:00
 image: 
 math: 
@@ -10,10 +13,9 @@ draft: false
 build:
     list: always
 categories:
-    - 优质供应商
-tags: 
-    - VPS
-    - VDS
+    - 资源收录
+tags:
+    - vps
 ---
 
 经常建站的朋友经常会对云服务器考两大选择,大陆还是非大陆。想必选择后者的朋友居多。在访问时延上和体验上后者有着相似和领先的优势。不过这篇文章的核心是收录优质供应商,主要收录体量不小，性价比很高，提供服务时间较长，服务较为稳定的供应商。将以大陆和非大陆分为两类，商家的出现顺序即为笔者认为的性价比高低。再就是笔者远离这个圈子有些年头，更好的供应商可能没有提到，欢迎发邮件补充`ignvex@hotmail.com`。

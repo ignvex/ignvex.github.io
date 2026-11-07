@@ -1,19 +1,24 @@
 ---
 title: "工作环境搭建 序"
-description: 下一代工作环境规划与部署
+slug: workspace-env-build-basic
+aliases:
+    - "/p/工作环境搭建-序/"
+description: 工作环境搭建系列序篇：以 WSL2 + Ubuntu 为基础设施，记录启用 WSL2、安装发行版、配置代理与换源的过程。
 date: 2026-09-26T20:34:01+08:00
 image:
 math:
 license:
-categories:
-  - 优化之路
-tags:
-  - Linux
-  - Windows
 comments: true
 draft: false
 build:
   list: always # Change to "never" to hide the page from the list
+categories:
+    - 优化之路
+tags:
+    - windows
+    - wsl
+    - linux
+    - proxy
 ---
 
 ## 序言

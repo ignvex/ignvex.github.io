@@ -1,5 +1,8 @@
 ---
 title: "Hugo 实用技巧"
+slug: hugo-tips
+aliases:
+    - "/p/hugo-实用技巧/"
 description: Hugo 常用命令与技巧汇总：本地预览、新建文章、相对链接用法，适合刚入门的 Hugo 用户。
 date: 2026-08-14T22:44:27+08:00
 image: 

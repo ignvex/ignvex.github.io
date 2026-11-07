@@ -1,5 +1,8 @@
 ---
 title: "Scoop：Windows 上的开源包管理器"
+slug: scoop
+aliases:
+    - "/p/scoopwindows-上的开源包管理器/"
 description: 无需管理员权限即可安装、更新、卸载软件的 Windows 包管理器，附镜像源与 bucket 扩展配置。
 date: 2026-08-14T21:25:42+08:00
 image: 
@@ -13,7 +16,8 @@ categories:
     - 优秀软件
 tags:
     - windows
-    - package manager
+    - scoop
+    - open-source
 ---
 
 `scoop` 基于Windows系统，提供的无需提权(不需要管理员权限)软件管理方案。具备极高的灵活性和定制性。有着在linux系统下使用包管理器的体验，一定程度上比linux的包管理器好用，这个是真的不用提权。

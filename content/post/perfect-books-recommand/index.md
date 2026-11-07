@@ -1,5 +1,8 @@
 ---
 title: "2026好书推荐"
+slug: book-recommendations-2026
+aliases:
+    - "/p/2026好书推荐/"
 description: 2026 年度书单：三联生活周刊、朝闻道、基地等五本经过一年沉淀仍值得一读的书，附推荐理由。
 date: 2026-07-07T23:09:13+08:00
 image: 
@@ -7,12 +10,12 @@ math:
 license: 
 comments: true
 draft: false
-categories:
-    - 好书推荐 
-tags: 
-    - 读书
 build:
     list: always    # Change to "never" to hide the page from the list
+categories:
+    - 杂谈
+tags:
+    - 读书
 ---
 
 这个博客的定位其实是高频率的微信朋友圈和qq空间的替代。我觉得总在朋友圈发并没有什么意义，在博客上发又刚刚好。好书推荐我打算作为一个年度文章，总结一下上一年读的书。书籍推荐对我来说是一个慎重的决策，一本书可能在刚读的时候觉得不错，但是时间长了却又变得一般。经过我为期约一年的阅读，能拿出来的推荐其实少之又少，但我相信，这些推荐的书绝对值得去读，一定程度上也符合我的价值观的。

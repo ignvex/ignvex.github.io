@@ -1,5 +1,8 @@
 ---
 title: "DeepSeek Harness 免 npx 安装（Windows）"
+slug: deepseek-harness-install-windows
+aliases:
+    - "/p/deepseek-harness-免-npx-安装windows/"
 description: 在 Windows 上通过 Scoop 安装 Node.js、为 npx 配置镜像源，然后一条命令启动 DeepSeek Harness 的取巧方案。
 date: 2026-08-14T21:18:04+08:00
 image: 
@@ -9,6 +12,12 @@ comments: true
 draft: false
 build:
     list: always    # Change to "never" to hide the page from the list
+categories:
+    - 实用技巧
+tags:
+    - windows
+    - scoop
+    - llm
 ---
 
 ## 前言(吐槽)

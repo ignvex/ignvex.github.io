@@ -1,5 +1,8 @@
 ---
 title: "便捷安装证书的magisk模块"
+slug: magisk-move-certificate
+aliases:
+    - "/p/便捷安装证书的magisk模块/"
 description: 用 Move Certificate 模块把抓包证书安装为系统证书，Magisk / KernelSU 通用，解决 reqable 等工具在 Android 上的证书信任问题。
 date: 2026-07-04T22:28:43+08:00
 image: 
@@ -7,14 +10,14 @@ math:
 license: 
 comments: true
 draft: false
+build:
+    list: always    # Change to "never" to hide the page from the list
 categories:
     - 玩机日志
 tags:
+    - android
     - magisk
     - kernelsu
-    - module
-build:
-    list: always    # Change to "never" to hide the page from the list
 ---
 
 直到今日才把以前写的文章搬到博客上来确实有些晚了，不过magisk和kernelsu是通用的，换到ksu也能用，这篇文章还是值得发的

@@ -1,5 +1,8 @@
 ---
 title: "在linux上使用onedrive"
+slug: onedrive-on-linux
+aliases:
+    - "/p/在linux上使用onedrive/"
 description: OneDrive 官方不支持 Linux，用开源项目 abraunegg/onedrive 同步微软 365 文件，附安装、登录与配置方法。
 date: 2026-07-04T20:39:34+08:00
 image: 
@@ -7,14 +10,13 @@ math:
 license: 
 comments: true
 draft: false
+build:
+    list: always    # Change to "never" to hide the page from the list
 categories:
     - 实用技巧
 tags:
     - linux
-    - debian 
     - onedrive
-build:
-    list: always    # Change to "never" to hide the page from the list
 ---
 
 onedrive官方并没有提供linux平台的支持。但在github上有一个可以使用onedrive的[仓库](https://github.com/abraunegg/onedrive)。配置起来相对简单，还能让我的Microsoft 365发挥他的价值。

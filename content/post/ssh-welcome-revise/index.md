@@ -1,5 +1,8 @@
 ---
 title: "ssh欢迎信息修改"
+slug: ssh-motd
+aliases:
+    - "/p/ssh欢迎信息修改/"
 description: 两种自定义 SSH 登录欢迎信息的方法：直接修改 /etc/motd 静态文件，或用 Ubuntu/Debian 的 update-motd 动态脚本。
 date: 2026-07-04T20:47:43+08:00
 image: 
@@ -7,14 +10,13 @@ math:
 license: 
 comments: true
 draft: false
+build:
+    list: always    # Change to "never" to hide the page from the list
 categories:
     - 实用技巧
 tags:
     - linux
     - ssh
-    - motd
-build:
-    list: always    # Change to "never" to hide the page from the list
 ---
 
 众所周知，每次通过SSH连接到服务器都会看到一段欢迎信息，这个欢迎信息是可以完全自定义的。常见的方式有两种：直接修改静态的 `/etc/motd` 文件，或者利用 Ubuntu/Debian 的 `update-motd` 动态脚本。
