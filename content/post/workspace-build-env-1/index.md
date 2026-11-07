@@ -1,5 +1,5 @@
 ---
-title: "工作环境搭建（一）：WSL 基础配置"
+title: "工作环境搭建：WSL 基础配置"
 slug: workspace-env-build-1
 description: 工作环境搭建系列第一篇：配置 .wslconfig 与 wsl.conf、APT 换源、按需开关的代理，以及 Node、Python、Go 工具链的安装。
 date: 2026-11-07T20:00:00+08:00
