@@ -1,3 +1,8 @@
 # Permalinks format of each content section
-post = "/p/:slug/"
-page = "/:slug/"
+[page]
+    post = "/p/:slug/"
+    page = "/:slug/"
+
+# 分类页使用英文 slug，旧的中文地址通过 aliases 跳转
+[term]
+    categories = "/categories/:slug/"

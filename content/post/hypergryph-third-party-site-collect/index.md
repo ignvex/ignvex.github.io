@@ -13,10 +13,10 @@ draft: false
 build:
   list: always
 categories:
-    - 游戏
     - 资源收录
 tags:
     - arknights
+    - game
 ---
 
 这一阵发现明日方舟有特别多的三方网站，便于自己查找便写了这篇文章。也希望对读者有些帮助。

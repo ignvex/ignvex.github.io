@@ -13,11 +13,11 @@ draft: false
 build:
     list: always    # Change to "never" to hide the page from the list
 categories:
-    - 实用技巧
-    - 游戏
+    - 开发工具
 tags:
     - java
     - minecraft
+    - game
 ---
 
 java是非常优秀的编程语言，是21世纪极为优秀的语言。但java在2006年将本体与hotspot开源并形成openjdk后，java发行版的选择也不只官方独有，可选择的内容多了，但如何选择适合自己需求的发行版，便成为了一个重要的议题，即本文主题。

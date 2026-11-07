@@ -13,12 +13,13 @@ draft: false
 build:
     list: always
 categories:
-    - 实用技巧
+    - Linux 与服务器
 tags:
-    - caddy
-    - docker
     - linux
+    - docker
+    - caddy
     - proxy
+    - self-hosting
 ---
 
 公共 docker 加速器关了一大批，自己用一台海外服务器反代镜像仓库，一劳永逸。

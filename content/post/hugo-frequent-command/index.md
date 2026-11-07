@@ -13,7 +13,7 @@ draft: false
 build:
     list: always
 categories:
-    - 实用技巧
+    - 开发工具
 tags:
     - hugo
 ---

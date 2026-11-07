@@ -13,7 +13,7 @@ draft: false
 build:
     list: always    # Change to "never" to hide the page from the list
 categories:
-    - 实用技巧
+    - 开发工具
 tags:
     - windows
     - scoop

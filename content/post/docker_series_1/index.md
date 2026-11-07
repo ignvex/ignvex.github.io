@@ -13,10 +13,10 @@ draft: false
 build:
     list: always    # Change to "never" to hide the page from the list
 categories:
-    - 实用技巧
+    - Linux 与服务器
 tags:
-    - docker
     - linux
+    - docker
 ---
 
 

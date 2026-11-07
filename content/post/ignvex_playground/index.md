@@ -15,7 +15,7 @@ build:
 categories:
     - 杂谈
 tags:
-    - domain
+    - self-hosting
 ---
 
 起初是想买ignvex.com,遗憾的是早已被人抢注。正好买一个.top后缀的域名当作试验场地，以后准备部署一些实验性的东西。

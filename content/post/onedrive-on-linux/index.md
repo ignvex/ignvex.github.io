@@ -13,10 +13,9 @@ draft: false
 build:
     list: always    # Change to "never" to hide the page from the list
 categories:
-    - 实用技巧
+    - Linux 与服务器
 tags:
     - linux
-    - onedrive
 ---
 
 onedrive官方并没有提供linux平台的支持。但在github上有一个可以使用onedrive的[仓库](https://github.com/abraunegg/onedrive)。配置起来相对简单，还能让我的Microsoft 365发挥他的价值。

@@ -13,10 +13,9 @@ draft: false
 build:
     list: always    # Change to "never" to hide the page from the list
 categories:
-    - 实用技巧
+    - Linux 与服务器
 tags:
     - linux
-    - ssh
 ---
 
 众所周知，每次通过SSH连接到服务器都会看到一段欢迎信息，这个欢迎信息是可以完全自定义的。常见的方式有两种：直接修改静态的 `/etc/motd` 文件，或者利用 Ubuntu/Debian 的 `update-motd` 动态脚本。

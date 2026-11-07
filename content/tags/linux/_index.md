@@ -5,4 +5,6 @@ aliases:
     - "/tags/curl/"
     - "/tags/debian/"
     - "/tags/motd/"
+    - "/tags/ssh/"
+    - "/tags/onedrive/"
 ---

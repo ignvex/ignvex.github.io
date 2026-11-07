@@ -15,9 +15,8 @@ build:
 categories:
     - 优秀软件
 tags:
-    - linux
     - windows
-    - open-source
+    - linux
 ---
 
 yazi 是基于rust编写的文件管理器，响应速度非常优秀，使用体验非常好，功能强大,[项目地址](https://github.com/sxyazi/yazi),[项目文档](https://yazi-rs.github.io)

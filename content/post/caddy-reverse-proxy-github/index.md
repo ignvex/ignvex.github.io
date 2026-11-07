@@ -13,12 +13,13 @@ draft: false
 build:
     list: always
 categories:
-    - 实用技巧
+    - Linux 与服务器
 tags:
-    - caddy
-    - git
     - linux
+    - git
+    - caddy
     - proxy
+    - self-hosting
 ---
 
 github 直连不稳定，clone 大仓库动不动断流，release 下载经常超时。用一台海外服务器反代 github，网页、clone、raw、release 一把梭，一劳永逸。

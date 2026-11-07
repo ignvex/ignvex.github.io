@@ -16,8 +16,7 @@ categories:
     - 玩机日志
 tags:
     - android
-    - magisk
-    - kernelsu
+    - root
 ---
 
 直到今日才把以前写的文章搬到博客上来确实有些晚了，不过magisk和kernelsu是通用的，换到ksu也能用，这篇文章还是值得发的

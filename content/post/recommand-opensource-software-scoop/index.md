@@ -17,7 +17,6 @@ categories:
 tags:
     - windows
     - scoop
-    - open-source
 ---
 
 `scoop` 基于Windows系统，提供的无需提权(不需要管理员权限)软件管理方案。具备极高的灵活性和定制性。有着在linux系统下使用包管理器的体验，一定程度上比linux的包管理器好用，这个是真的不用提权。

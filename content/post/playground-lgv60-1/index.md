@@ -16,8 +16,7 @@ categories:
     - 玩机日志
 tags:
     - android
-    - magisk
-    - kernelsu
+    - root
 ---
 
 

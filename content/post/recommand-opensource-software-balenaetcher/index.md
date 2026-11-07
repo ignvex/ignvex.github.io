@@ -17,7 +17,6 @@ categories:
 tags:
     - windows
     - linux
-    - open-source
 ---
 
 BalenaEtcher是开源且跨平台的USB镜像烧录工具,支持windows,linux和macos，具备良好兼容性的同时还有着美观易于上手的操作界面。
