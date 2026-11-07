@@ -20,23 +20,23 @@ jobs:
     runs-on: ubuntu-latest
     env:
       # Define tool versions
-      DART_SASS_VERSION: 1.101.0
-      GO_VERSION: 1.26.4
-      HUGO_VERSION: 0.163.3
-      NODE_VERSION: 24.16.0
+      DART_SASS_VERSION: 1.108.1
+      GO_VERSION: 1.27.3
+      HUGO_VERSION: 0.169.0
+      NODE_VERSION: 24.22.2
 
       # Set the build time zone
       TZ: Europe/Oslo
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           submodules: recursive
           fetch-depth: 0
 
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
 
       - name: Create a local tools directory
         run: |
@@ -44,14 +44,14 @@ jobs:
 
       - name: Install Go
         if: hashFiles('go.mod') != ''
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v7
         with:
           go-version: ${{ env.GO_VERSION }}
           cache: false
 
       - name: Install Node.js
         if: hashFiles('package-lock.json') != ''
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: ${{ env.NODE_VERSION }}
 
@@ -106,7 +106,7 @@ jobs:
 
       - name: Cache restore
         id: cache-restore
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v6
         with:
           path: ${{ runner.temp }}/hugo_cache
           key: hugo-${{ github.run_id }}
@@ -121,13 +121,13 @@ jobs:
             --cacheDir "${{ runner.temp }}/hugo_cache"
 
       - name: Cache save
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v6
         with:
           path: ${{ runner.temp }}/hugo_cache
           key: ${{ steps.cache-restore.outputs.cache-primary-key }}
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v5
         with:
           include-hidden-files: false
           path: ./public
@@ -139,4 +139,4 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
