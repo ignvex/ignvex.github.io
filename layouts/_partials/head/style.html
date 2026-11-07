@@ -1,0 +1,5 @@
+{{- /* 覆盖主题：用 Dart Sass 替代已弃用的 libsass */ -}}
+{{ $opts := dict "transpiler" "dartsass" "silenceDeprecations" (slice "import" "global-builtin" "color-functions" "if-function") }}
+{{ $sass := resources.Get "scss/style.scss" }}
+{{ $style := $sass | css.Sass $opts | minify | resources.Fingerprint "sha256" }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}">
